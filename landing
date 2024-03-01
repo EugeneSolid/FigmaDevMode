@@ -1,0 +1,616 @@
+import Vector from "/src/components/assets/Vector";
+import Group from "/src/components/assets/Group";
+import Work1 from "/src/components/assets/Work1";
+import Owl from "/src/components/assets/Owl";
+import Group1 from "/src/components/assets/Group1";
+import Layer from "/src/components/assets/Layer";
+import PlayCircle51 from "/src/components/assets/PlayCircle51";
+import Send1 from "/src/components/assets/Send1";
+import AddUser1 from "/src/components/assets/AddUser1";
+import Location1 from "/src/components/assets/Location1";
+import Group2 from "/src/components/assets/Group2";
+import Group3 from "/src/components/assets/Group3";
+import Group4 from "/src/components/assets/Group4";
+import Group5 from "/src/components/assets/Group5";
+import Vector1 from "/src/components/assets/Vector1";
+import Group6 from "/src/components/assets/Group6";
+import ArrowLeft1 from "/src/components/assets/ArrowLeft1";
+import ArrowLeft2 from "/src/components/assets/ArrowLeft2";
+import Star1 from "/src/components/assets/Star1";
+import Rectangle from "/src/components/assets/Rectangle";
+import Location2 from "/src/components/assets/Location2";
+import Calendar1 from "/src/components/assets/Calendar1";
+import Ticket1 from "/src/components/assets/Ticket1";
+import Message1 from "/src/components/assets/Message1";
+import Ellipse22 from "/src/components/assets/Ellipse22";
+import Ellipse23 from "/src/components/assets/Ellipse23";
+import Group7 from "/src/components/assets/Group7";
+import * as Select from "@radix-ui/react-select";
+
+export default function Desktop({ className = "" }: DesktopProps) {
+  return (
+    <div className={`inline-flex w-full flex-row ${className}`}>
+      <div className="flex h-full w-full flex-col items-center overflow-clip bg-white pb-16 pt-8" >
+        <div className="font-circular_std z-[6] mr-0 flex w-[2955px] items-center justify-end px-[886px] text-sm font-bold leading-tight tracking-[0px]" >
+          <div className="flex flex-wrap items-center justify-center gap-y-2 gap-x-48 self-stretch min-[1430px]:flex-nowrap" >
+            <div className="flex items-center justify-center gap-x-16">
+              <div className="text-left text-gray-800">Home</div>
+              <div className="text-left text-gray-900/50">Discover</div>
+              <div className="flex justify-center text-center text-gray-900/50" >
+                Special Deals
+              </div>
+              <div className="flex justify-end text-right text-gray-900/50">
+                Contact
+              </div>
+            </div>
+            <div className="flex items-center justify-center self-stretch text-center" >
+              <div className="flex justify-center self-stretch rounded-[100px] bg-white py-4 px-8 text-gray-800" >
+                Log In
+              </div>
+              <div className="flex justify-center self-stretch rounded-[100px] bg-indigo-600 py-4 px-8 text-zinc-100" >
+                Sign Up
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="font-circular_std z-[5] mr-0 flex h-0 w-[2955px] items-end justify-center pb-0 text-left text-2xl font-black leading-10 tracking-[0px] text-gray-900" >
+          <div className="mb-1 flex h-10 items-center gap-x-4 pr-[1042px]">
+            <Vector className="h-10 w-10" />
+            <div>Travlog</div>
+          </div>
+        </div>
+        <div className="z-[4] mr-0 flex w-[2955px] items-end justify-center px-80 pt-24" >
+          <div className="flex flex-grow flex-wrap items-center justify-center gap-y-6 gap-x-6 self-stretch pl-96 min-[1430px]:flex-nowrap" >
+            <div className="flex items-start justify-center pb-[811px]">
+              <div className="relative flex flex-grow items-center justify-center gap-x-6 pl-0" >
+                <div className="absolute inset-0 flex">
+                  <div className="h-full w-full origin-top-left overflow-clip [transform:rotate(180deg)]" />
+                </div>
+                <Group className="relative mb-4 w-5 self-stretch" />
+                <Group className="relative mt-4 w-5 self-stretch" />
+              </div>
+            </div>
+            <div className="flex flex-grow flex-col items-center justify-center gap-y-16 self-stretch" >
+              <div className="flex items-center justify-center self-stretch">
+                <div className="flex w-96 flex-col items-start justify-center gap-y-4 pb-20" >
+                  <div className="font-circular_std flex items-center justify-center gap-x-4 rounded-[100px] bg-white py-4 px-8 text-left text-sm font-bold leading-tight tracking-[0px] text-pink-500 drop-shadow-lg" >
+                    <div>Explore the world!</div>
+                    <Work1 className="h-6 w-6" />
+                  </div>
+                  <div className="font-circular_std flex items-end self-stretch pt-7 text-left text-[69px] font-bold leading-tight tracking-[0px]" >
+                    <span>
+                      <span className="text-black">{"Travel "}</span>
+                      <span className="text-pink-500">
+                        top destination
+                      </span>
+                      <span className="whitespace-pre text-black">
+                        {" "}
+                        <br />
+                        of the world
+                      </span>
+                    </span>
+                  </div>
+                  <div className="font-inter flex items-end self-stretch pt-7 text-left text-lg font-normal leading-relaxed tracking-[0px] text-gray-900/50" >
+                    <span>
+                      We always make our customer happy by providing
+                      <br />
+                      as many choices as possible
+                    </span>
+                  </div>
+                  <div className="font-circular_std flex items-end self-stretch pt-7 text-center text-sm font-bold leading-tight tracking-[0px] text-zinc-100" >
+                    <div className="flex justify-center rounded-[100px] bg-indigo-600 py-4 px-8 drop-shadow-lg" >
+                      Get Started
+                    </div>
+                  </div>
+                  <div className="flex items-end self-stretch pt-48">
+                    <Owl className="h-6 w-11" />
+                  </div>
+                  <div className="font-circular_std flex items-end self-stretch pt-64 text-left text-[23px] font-bold leading-tight tracking-widest text-pink-500" >
+                    <span className="uppercase">Services</span>
+                  </div>
+                  <div className="font-circular_std self-stretch text-left text-[44px] font-bold leading-tight tracking-[0px] text-gray-900" >
+                    Our top value categories for you
+                  </div>
+                </div>
+                <div className="flex w-[1279px] items-center self-stretch tracking-[0px]" >
+                  <div className="ml-[-395.69px] flex w-[1675px] flex-wrap items-center justify-center gap-y-0.5 gap-x-0.5 self-stretch min-[1430px]:flex-nowrap" >
+                    <Group1 className="mt-64 h-8 w-12" />
+                    <div className="relative flex flex-grow items-end justify-end self-stretch px-48" >
+                      <img
+                        className="absolute bottom-72 right-0 h-96 w-96 opacity-50"
+                        src={undefined}
+                       />
+                      <div className="font-circular_std absolute left-14 top-96 flex h-14 w-44 items-center justify-center gap-x-2 rounded-full border border-solid border-zinc-100 bg-white py-4 px-8 text-right text-sm font-bold leading-tight text-gray-800" >
+                        <PlayCircle51 className="h-6 w-6" />
+                        <div className="flex justify-end">Watch Demo</div>
+                      </div>
+                      <Layer className="absolute left-80 top-0 h-72 w-[772px]" />
+                      <div className="absolute left-96 top-20 flex h-72 w-72 items-start justify-end rounded-3xl pr-60 pt-64" >
+                        <div className="absolute inset-0 rounded-3xl bg-[#D9D9D9]" />
+                        <div className="bg-background-1 absolute inset-0 rounded-3xl bg-cover bg-center" />
+                        <div className="relative mt-64 flex h-16 w-16 items-center justify-center rounded-full bg-pink-500 p-4 drop-shadow-lg" >
+                          <Send1 className="h-8 w-8" />
+                        </div>
+                      </div>
+                      <div className="absolute left-96 top-96 h-72 w-72 rounded-3xl" >
+                        <div className="absolute inset-0 rounded-3xl bg-[#D9D9D9]" />
+                        <div className="bg-background-2 absolute inset-0 rounded-3xl bg-cover bg-center" />
+                      </div>
+                      <div className="absolute right-96 top-48 h-96 w-72 rounded-3xl" >
+                        <div className="absolute inset-0 rounded-3xl bg-[#D9D9D9]" />
+                        <div className="bg-background-4 absolute inset-0 rounded-3xl bg-cover bg-center" />
+                      </div>
+                      <div className="absolute right-[773px] top-96 flex h-16 w-16 items-center justify-center rounded-full bg-orange-600 p-4 drop-shadow-lg" >
+                        <AddUser1 className="h-8 w-8" />
+                      </div>
+                      <div className="font-circular_std absolute right-96 top-96 flex h-14 w-40 items-center justify-center gap-x-2 rounded-full bg-white py-4 px-8 text-right text-sm font-bold leading-tight text-zinc-700 drop-shadow-lg" >
+                        <Location1 className="h-6 w-6" />
+                        <div className="flex justify-end">Top Places</div>
+                      </div>
+                      <div className="absolute bottom-96 left-0 flex h-8 w-[1084px] items-start justify-center gap-x-24" >
+                        <div className="flex items-center justify-center gap-x-0.5" >
+                          <Group5 className="w-24 self-stretch" />
+                          <Vector1 className="mb-1.5 h-1.5 w-1.5" />
+                        </div>
+                        <Group2 className="w-28 self-stretch" />
+                        <div className="bg-b-bg-group-group flex items-center justify-center self-stretch bg-cover bg-center" >
+                          <Group6 className="w-48 self-stretch" />
+                        </div>
+                        <Group3 className="w-24 self-stretch" />
+                        <Group4 className="w-44 self-stretch" />
+                      </div>
+                      <div className="relative flex flex-wrap items-center justify-center gap-y-5 gap-x-5 text-center min-[1430px]:flex-nowrap" >
+                        <div className="flex w-80 flex-col items-center gap-y-8 self-stretch rounded-3xl border border-solid border-gray-900/10 bg-white px-16 pb-24 pt-16" >
+                          <img
+                            className="h-16 w-16 object-cover object-center"
+                            src="/assets/destination-1.png"
+                           />
+                          <div className="font-circular_std flex w-56 items-end justify-center pt-8 text-[28px] font-bold leading-tight text-gray-900" >
+                            Best Tour Guide
+                          </div>
+                          <div className="font-inter flex justify-center self-stretch text-lg font-normal leading-relaxed text-gray-900/50" >
+                            What looked like a small patch of purple grass, above five feet.
+                          </div>
+                        </div>
+                        <div className="flex w-80 flex-col items-center gap-y-8 self-stretch rounded-3xl bg-white px-16 pb-24 pt-16 drop-shadow-lg" >
+                          <img
+                            className="h-16 w-16 object-cover object-center"
+                            src="/assets/booking-1.png"
+                           />
+                          <div className="font-circular_std flex w-56 items-end justify-center pt-8 text-[28px] font-bold leading-tight text-gray-900" >
+                            Easy Booking
+                          </div>
+                          <div className="font-inter flex justify-center self-stretch text-lg font-normal leading-relaxed text-gray-900/50" >
+                            Square, was moving across the sand in their direction.
+                          </div>
+                        </div>
+                        <div className="flex w-80 flex-col items-center justify-end gap-y-8 self-stretch rounded-3xl border border-solid border-gray-900/10 bg-white px-16 pb-16 pt-48" >
+                          <div className="font-circular_std flex justify-center self-stretch text-[28px] font-bold leading-tight text-gray-900" >
+                            Weather Forecast
+                          </div>
+                          <div className="font-inter flex justify-center self-stretch text-lg font-normal leading-relaxed text-gray-900/50" >
+                            What looked like a small patch of purple grass, above five feet.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="font-circular_std flex items-end self-stretch pr-96 pt-16 text-left font-bold leading-tight" >
+                <div className="flex flex-wrap items-center justify-center gap-y-8 gap-x-8 min-[1430px]:flex-nowrap" >
+                  <div className="flex flex-grow flex-wrap items-center justify-center self-stretch [min-width:100px] min-[1430px]:flex-nowrap" >
+                    <div className="flex flex-grow flex-col items-center justify-center gap-y-4 self-stretch" >
+                      <div className="self-stretch text-[23px] leading-tight tracking-widest text-pink-500" >
+                        <span className="uppercase">Top Destination</span>
+                      </div>
+                      <div className="self-stretch text-[44px] leading-tight tracking-[0px] text-gray-900" >
+                        Explore top destination
+                      </div>
+                    </div>
+                    <div className="flex h-24 w-24 items-center justify-center rounded-full border border-solid border-gray-900/10 bg-white p-9" >
+                      <ArrowLeft1 className="h-6 w-6" />
+                    </div>
+                  </div>
+                  <div className="relative flex h-24 w-24 items-center justify-center p-10" >
+                    <div className="absolute inset-0 flex rounded-[100px]">
+                      <div className="h-full w-full -scale-x-100 rounded-[100px] bg-indigo-600" />
+                    </div>
+                    <ArrowLeft2 className="relative h-6 w-6" />
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-wrap items-center gap-y-8 gap-x-8 self-stretch pr-96 tracking-[0px] min-[1430px]:flex-nowrap" >
+                <div className="flex w-96 flex-col items-center justify-center self-stretch" >
+                  <div className="relative h-80 self-stretch rounded-t-3xl">
+                    <div className="absolute inset-0 rounded-t-3xl bg-[#D9D9D9]" />
+                    <div className="bg-background-6 absolute inset-0 rounded-t-3xl bg-cover bg-center" />
+                  </div>
+                  <div className="flex flex-col items-center justify-center gap-y-4 self-stretch rounded-b-3xl bg-white p-8 drop-shadow-lg" >
+                    <div className="font-circular_std flex items-start justify-center self-stretch text-[23px] font-bold leading-tight" >
+                      <div className="w-56 self-stretch text-left text-gray-900" >
+                        Paradise Beach, Bantayan Island
+                      </div>
+                      <div className="flex justify-end text-right text-pink-500" >
+                        $550.16
+                      </div>
+                    </div>
+                    <div className="font-inter self-stretch text-left text-lg font-normal leading-relaxed text-gray-900/75" >
+                      Rome, Italy
+                    </div>
+                    <div className="font-circular_std flex items-end self-stretch pt-4 text-left text-[23px] font-bold leading-tight text-orange-600" >
+                      <div className="flex items-center justify-center gap-x-2" >
+                        <div>4.8</div>
+                        <Star1 className="h-6 w-6" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex w-96 flex-col items-center justify-center self-stretch" >
+                  <Rectangle className="h-80 self-stretch" />
+                  <div className="flex flex-col items-center justify-center gap-y-4 self-stretch rounded-b-3xl bg-white p-8 drop-shadow-lg" >
+                    <div className="font-circular_std flex items-start justify-center self-stretch text-[23px] font-bold leading-tight" >
+                      <div className="w-60 self-stretch text-left text-gray-900" >
+                        Ocean with full of Colors
+                      </div>
+                      <div className="flex justify-end text-right text-pink-500" >
+                        $20.99
+                      </div>
+                    </div>
+                    <div className="font-inter self-stretch text-left text-lg font-normal leading-relaxed text-gray-900/75" >
+                      Maldives
+                    </div>
+                    <div className="font-circular_std flex items-end self-stretch pt-4 text-left text-[23px] font-bold leading-tight text-orange-600" >
+                      <div className="flex items-center justify-center gap-x-2" >
+                        <div>4.5</div>
+                        <Star1 className="h-6 w-6" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex w-96 flex-col items-center justify-center self-stretch" >
+                  <div className="relative h-80 self-stretch rounded-t-3xl">
+                    <div className="absolute inset-0 rounded-t-3xl bg-[#D9D9D9]" />
+                    <div className="bg-background-8 absolute inset-0 rounded-t-3xl bg-cover bg-center" />
+                  </div>
+                  <div className="flex flex-col items-center justify-center gap-y-4 self-stretch rounded-b-3xl bg-white p-8 drop-shadow-lg" >
+                    <div className="font-circular_std flex items-start justify-center self-stretch text-[23px] font-bold leading-tight" >
+                      <div className="w-56 self-stretch text-left text-gray-900" >
+                        Mountain View, Above the cloud
+                      </div>
+                      <div className="flex justify-end text-right text-pink-500" >
+                        $150.99
+                      </div>
+                    </div>
+                    <div className="font-inter self-stretch text-left text-lg font-normal leading-relaxed text-gray-900/75" >
+                      United Arab Emeries
+                    </div>
+                    <div className="font-circular_std flex items-end self-stretch pt-4 text-left text-[23px] font-bold leading-tight text-orange-600" >
+                      <div className="flex items-center justify-center gap-x-2" >
+                        <div>5.0</div>
+                        <Star1 className="h-6 w-6" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="z-[3] mr-0 flex w-[2955px] items-end justify-center pt-32" >
+          <div className="flex w-[1440px] items-end justify-center self-stretch" >
+            <img
+              className="h-96 w-[871px]"
+              src="/assets/group-9238.png"
+             />
+            <div className="relative flex w-96 items-end pr-32 pt-44">
+              <div className="font-circular_std absolute left-0 top-0 flex h-7 w-96 items-center justify-center text-right text-[23px] font-bold leading-tight tracking-widest text-pink-500" >
+                <div className="flex flex-grow justify-end self-stretch">
+                  <span className="uppercase">Travel Point</span>
+                </div>
+              </div>
+              <div className="font-circular_std absolute left-0 top-11 flex h-28 w-96 items-center justify-center text-left text-[44px] font-bold leading-tight tracking-[0px] text-gray-900" >
+                <div className="flex-grow self-stretch">
+                  We helping you find your dream location
+                </div>
+              </div>
+              <div className="relative flex flex-grow flex-col items-start justify-center gap-y-8 self-stretch tracking-[0px]" >
+                <div className="font-inter self-stretch text-left text-lg font-normal leading-relaxed text-gray-900/50" >
+                  Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.
+                </div>
+                <div className="flex items-end self-stretch pt-8 text-center">
+                  <div className="flex flex-col items-center justify-center gap-y-4 self-stretch rounded-3xl border border-solid border-gray-900/10 bg-white p-8" >
+                    <div className="font-circular_std flex justify-center text-[35px] font-bold leading-tight text-orange-600" >
+                      500+
+                    </div>
+                    <div className="font-inter flex justify-center self-stretch text-lg font-normal leading-relaxed text-gray-900" >
+                      Holiday Package
+                    </div>
+                  </div>
+                </div>
+                <div className="flex flex-col items-center justify-center gap-y-4 rounded-3xl border border-solid border-gray-900/10 bg-white p-8 text-center" >
+                  <div className="font-circular_std flex justify-center text-[35px] font-bold leading-tight text-orange-600" >
+                    7
+                  </div>
+                  <div className="font-inter flex justify-center self-stretch text-lg font-normal leading-relaxed text-gray-900" >
+                    Premium Airlines
+                  </div>
+                </div>
+              </div>
+              <div className="absolute bottom-0 right-32 flex h-80 w-52 flex-col items-center justify-center gap-y-8 text-center tracking-[0px]" >
+                <div className="flex flex-col items-center justify-center gap-y-4 self-stretch rounded-3xl border border-solid border-gray-900/10 bg-white py-8 px-12" >
+                  <div className="font-circular_std flex justify-center text-[35px] font-bold leading-tight text-orange-600" >
+                    100
+                  </div>
+                  <div className="font-inter flex justify-center self-stretch text-lg font-normal leading-relaxed text-gray-900" >
+                    Luxury Hotel
+                  </div>
+                </div>
+                <div className="flex flex-col items-center justify-center gap-y-4 self-stretch rounded-3xl border border-solid border-gray-900/10 bg-white py-8 px-7" >
+                  <div className="font-circular_std flex justify-center text-[35px] font-bold leading-tight text-orange-600" >
+                    2k+
+                  </div>
+                  <div className="font-inter flex justify-center self-stretch text-lg font-normal leading-relaxed text-gray-900" >
+                    Happy Customer
+                  </div>
+                </div>
+              </div>
+              <div className="absolute bottom-28 right-0 flex h-96 w-72 items-center justify-center" >
+                <img
+                  className="h-96 w-72"
+                  src="/assets/frame-50.png"
+                 />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="z-[2] mr-0 flex w-[2955px] items-end justify-center pt-32" >
+          <div className="flex flex-grow items-center self-stretch pr-80">
+            <div className="relative flex flex-grow items-center justify-end self-stretch pl-[886px] pr-96" >
+              <div className="relative flex w-[1312px] flex-col items-center justify-center gap-y-5 self-stretch" >
+                <div className="flex items-start justify-center gap-x-16 self-stretch" >
+                  <div className="flex w-96 flex-col items-center justify-center" >
+                    <div className="font-circular_std self-stretch text-left text-[23px] font-bold leading-tight tracking-widest text-pink-500" >
+                      <span className="uppercase">Key features</span>
+                    </div>
+                    <div className="font-circular_std flex items-end self-stretch pt-4 text-left text-[44px] font-bold leading-tight tracking-[0px] text-gray-900" >
+                      We offer best services
+                    </div>
+                    <div className="font-inter flex items-end self-stretch pt-8 text-left text-lg font-normal leading-relaxed tracking-[0px] text-gray-900/50" >
+                      <span>
+                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
+                        <br />
+                        from 45 BC.
+                      </span>
+                    </div>
+                    <div className="mt-16 flex flex-wrap items-center justify-center gap-y-8 gap-x-8 self-stretch rounded-3xl bg-white p-8 tracking-[0px] min-[1430px]:flex-nowrap" >
+                      <div className="flex h-24 w-24 items-center justify-center rounded-3xl bg-orange-600 p-7" >
+                        <Location2 className="h-12 w-12" />
+                      </div>
+                      <div className="flex flex-grow flex-col items-center justify-center gap-y-2" >
+                        <div className="font-circular_std flex justify-center self-stretch text-center text-[23px] font-bold leading-tight text-gray-900" >
+                          We offer best services
+                        </div>
+                        <div className="font-inter flex justify-end self-stretch text-right text-lg font-normal leading-relaxed text-gray-900/50" >
+                          Lorem Ipsum is not simply random text
+                        </div>
+                      </div>
+                    </div>
+                    <div className="flex items-center justify-center self-stretch rounded-3xl border border-solid border-gray-900/10 bg-white p-8 tracking-[0px]" >
+                      <div className="flex flex-grow flex-wrap items-center justify-center gap-y-8 gap-x-8 min-[1430px]:flex-nowrap" >
+                        <div className="flex h-24 w-24 items-start rounded-3xl bg-yellow-300 p-6" >
+                          <Calendar1 className="h-12 w-12" />
+                        </div>
+                        <div className="flex flex-grow flex-col items-center justify-center gap-y-2" >
+                          <div className="font-circular_std flex justify-center self-stretch text-center text-[23px] font-bold leading-tight text-gray-900" >
+                            Schedule your trip
+                          </div>
+                          <div className="font-inter flex justify-end self-stretch text-right text-lg font-normal leading-relaxed text-gray-900/50" >
+                            It has roots in a piece of classical
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="flex flex-wrap items-center justify-center gap-y-8 gap-x-8 self-stretch rounded-3xl bg-white p-8 text-right tracking-[0px] min-[1430px]:flex-nowrap" >
+                      <div className="flex h-24 w-24 items-center justify-center rounded-3xl bg-pink-500 p-7" >
+                        <Ticket1 className="h-12 w-12" />
+                      </div>
+                      <div className="flex flex-grow flex-col items-center justify-center gap-y-2" >
+                        <div className="font-circular_std flex justify-end self-stretch text-[23px] font-bold leading-tight text-gray-900" >
+                          Get discounted coupons
+                        </div>
+                        <div className="font-inter flex justify-end self-stretch text-lg font-normal leading-relaxed text-gray-900/50" >
+                          Lorem Ipsum is not simply random text
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <img
+                    className="w-96 self-stretch"
+                    src="/assets/background.png"
+                   />
+                </div>
+                <div className="font-circular_std flex items-end self-stretch pt-[878px] pr-32 font-bold leading-tight" >
+                  <div className="flex h-96 w-[1184px] flex-col items-start justify-end gap-y-5 rounded-3xl bg-amber-300/[0.08] pb-32 pr-16" >
+                    <img
+                      className="mr-9 h-44 w-48"
+                      src="/assets/frame-50.png"
+                     />
+                    <div className="mr-9 flex items-center justify-center self-stretch text-center text-[23px] leading-tight tracking-widest text-pink-500" >
+                      <span className="uppercase">
+                        subscribe to our newsletter
+                      </span>
+                    </div>
+                    <div className="mr-9 flex items-end justify-center self-stretch pt-3.5 text-center text-[55px] leading-tight tracking-[0px] text-gray-900" >
+                      Prepare yourself & let’s explore the beauty of the world
+                    </div>
+                    <div className="mr-9 flex flex-wrap items-center justify-center gap-y-12 gap-x-16 self-stretch pl-24 pt-11 text-[23px] leading-tight tracking-[0px] min-[1430px]:flex-nowrap" >
+                      <div className="flex flex-grow items-center gap-x-4 self-stretch rounded-3xl bg-white p-8 text-left text-gray-900/75" >
+                        <Message1 className="h-8 w-8" />
+                        <div>Your Email</div>
+                      </div>
+                      <div className="flex justify-center self-stretch rounded-3xl bg-indigo-600 py-9 px-16 text-center text-white" >
+                        Subscribe
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="font-circular_std flex flex-wrap items-start justify-center gap-y-3.5 gap-x-96 self-stretch pr-32 pt-28 tracking-[0px] text-gray-900 min-[1430px]:flex-nowrap" >
+                  <div className="flex items-center justify-center gap-x-4 self-stretch text-left text-2xl font-black leading-10" >
+                    <Vector className="h-10 w-10" />
+                    <div>Travlog</div>
+                  </div>
+                  <div className="flex items-center justify-center gap-x-8 text-right text-[23px] font-bold leading-tight" >
+                    <div className="flex w-40 justify-end self-stretch">
+                      Company
+                    </div>
+                    <div className="flex w-40 justify-end self-stretch">
+                      Contact
+                    </div>
+                    <div className="flex w-40 justify-end self-stretch">
+                      Meet Us
+                    </div>
+                  </div>
+                </div>
+                <div className="flex flex-wrap items-start gap-y-8 gap-x-8 self-stretch pr-32 leading-relaxed tracking-[0px] min-[1430px]:flex-nowrap" >
+                  <div className="font-circular_std flex w-96 items-end pt-3 text-left text-[23px] font-[450] leading-relaxed text-gray-900/50" >
+                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.
+                  </div>
+                  <div className="font-inter flex w-48 flex-col items-center justify-center gap-y-8 self-stretch pl-8 text-right text-lg font-normal leading-relaxed text-gray-900/75" >
+                    <div className="flex justify-end self-stretch">
+                      About
+                    </div>
+                    <div className="flex justify-end self-stretch">
+                      Career
+                    </div>
+                    <div className="flex justify-end self-stretch">
+                      Mobile
+                    </div>
+                  </div>
+                  <div className="font-inter flex w-40 flex-col items-center justify-center gap-y-8 self-stretch text-right text-lg font-normal leading-relaxed text-gray-900/75" >
+                    <div className="flex justify-end self-stretch">
+                      Why Travlog?
+                    </div>
+                    <div className="flex justify-end self-stretch">
+                      Partner with us
+                    </div>
+                    <div className="flex justify-end self-stretch">
+                      FAQ’s
+                    </div>
+                  </div>
+                  <div className="font-inter flex w-40 flex-col items-center justify-center gap-y-8 text-lg font-normal leading-relaxed text-gray-900/75" >
+                    <div className="self-stretch text-left">
+                      +00 92 1234 56789
+                    </div>
+                    <div className="flex justify-end self-stretch text-right">
+                      info@travlog.com
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-b-testimonials-trust-our-clients-bbrectangle-4bbellipse-22bmark-smith-travel-enthusiast-bstar-2star-3star-4star-5star-6bcontrary-to-popular-belief-lorem-ipsum-is-not-simply-random-text-it-has-roots-in-apiece-of-classical-latin-literature-from-45bc-bbellipse-20ellipse-21ellipse-22bbg-rectangle-5arrow-left-2bg-layer_1 font-circular_std absolute inset-x-0 top-96 flex h-[1354px] flex-col items-center justify-center gap-y-4 bg-cover bg-center pb-80 pl-96 pr-80 pt-96 text-center opacity-10" >
+                <div className="flex w-[872px] justify-center text-[23px] font-bold leading-tight tracking-widest text-pink-500" >
+                  <span className="uppercase">Testimonials</span>
+                </div>
+                <div className="flex w-[872px] justify-center text-[44px] font-bold leading-tight tracking-[0px] text-gray-900" >
+                  Trust our clients
+                </div>
+                <div className="mt-10 flex h-96 flex-wrap items-center justify-center gap-y-12 gap-x-14 tracking-[0px] min-[1430px]:flex-nowrap" >
+                  <div className="flex h-24 w-24 items-center justify-center rounded-full border border-solid border-gray-900/10 bg-white p-9" >
+                    <ArrowLeft1 className="h-6 w-6" />
+                  </div>
+                  <div className="mb-20 flex h-96 flex-grow items-end justify-center pt-40" >
+                    <div className="flex flex-grow flex-col items-center justify-center gap-y-8 self-stretch" >
+                      <Ellipse22 className="h-32 w-32" />
+                      <div className="flex items-end justify-center self-stretch pt-6 font-bold leading-tight" >
+                        <span>
+                          <span className="text-[28px] leading-tight text-orange-600" >
+                            {"Mark Smith "}
+                          </span>
+                          <span className="text-[23px] leading-tight text-gray-900/75" >
+                            / Travel Enthusiast
+                          </span>
+                        </span>
+                      </div>
+                      <div className="flex items-center justify-center gap-x-4 self-stretch" >
+                        <Location1 className="h-8 w-8" />
+                        <Location1 className="h-8 w-8" />
+                        <Location1 className="h-8 w-8" />
+                        <Location1 className="h-8 w-8" />
+                        <Location1 className="h-8 w-8" />
+                      </div>
+                      <div className="flex items-end justify-center self-stretch pt-6 text-[23px] font-[450] leading-relaxed text-gray-900/75" >
+                        <span>
+                          Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
+                          <br />
+                          in a piece of classical Latin literature from 45 BC.
+                        </span>
+                      </div>
+                      <div className="flex items-end justify-center self-stretch pt-6" >
+                        <div className="flex items-center justify-center gap-x-6" >
+                          <ArrowLeft1 className="h-6 w-6" />
+                          <Ellipse23 className="h-6 w-6" />
+                          <ArrowLeft1 className="h-6 w-6" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="relative flex h-24 w-24 items-center justify-center p-10" >
+                    <div className="absolute inset-0 flex rounded-[100px]">
+                      <div className="h-full w-full -scale-x-100 rounded-[100px] bg-indigo-600" />
+                    </div>
+                    <ArrowLeft2 className="relative h-6 w-6" />
+                  </div>
+                </div>
+              </div>
+              <img
+                className="absolute bottom-28 right-52 h-96 w-80"
+                src={undefined}
+               />
+            </div>
+          </div>
+        </div>
+        <div className="font-inter z-[1] mr-0 flex w-[2955px] items-center justify-center px-[886px] text-lg font-normal leading-relaxed tracking-[0px] text-gray-900/75" >
+          <div className="flex h-24 flex-wrap items-center justify-center gap-y-4 gap-x-96 min-[1430px]:flex-nowrap" >
+            <div className="flex items-center justify-center gap-x-8">
+              <Group7 className="h-8 w-8" />
+              <Group7 className="h-8 w-8" />
+              <Group7 className="h-8 w-8" />
+            </div>
+            <div className="mt-1 flex h-28 flex-wrap items-center justify-center gap-y-5 gap-x-8 min-[1430px]:flex-nowrap" >
+              <div className="flex w-40 items-start justify-end pb-3 text-right" >
+                Blog
+              </div>
+              <div className="flex w-40 items-start justify-center self-stretch pb-2.5" >
+                <div className="flex flex-grow flex-col items-center justify-center gap-y-2 self-stretch" >
+                  <div className="self-stretch text-left">
+                    205. R Street, New York
+                  </div>
+                  <div className="flex justify-end self-stretch text-right">
+                    BD23200
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+interface DesktopProps {
+  className?: string;
+}
+
+/**
+ * This component was generated from Figma with FireJet.
+ * Learn more at https://www.firejet.io
+ *
+ * README:
+ * The output code may look slightly different when copied to your codebase. To fix this:
+ * 1. Include the necessary fonts. The required fonts are imported from public/index.html
+ * 2. Include the global styles. They can be found in App.css
+ *
+ * Note: Step 2 is not required for tailwind.css output
+ */
